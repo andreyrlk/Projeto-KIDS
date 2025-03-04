@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Bem-vindo ao Mini Site
+    </header>
+    <main>
+        <p>Este é um mini site simples usando HTML, CSS e JavaScript.</p>
+        <button onclick="mostrarMensagem()">Clique aqui</button>
+    </main>
+    <footer>
+        &copy; 2025 Mini Site
+    </footer>
+
+    <script>
+        function mostrarMensagem() {
+            alert("Olá! Você clicou no botão.");
+        }
+    </script>
+</body>
+</html>
